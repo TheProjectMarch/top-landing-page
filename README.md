@@ -16,11 +16,11 @@ dark bg color for hero and footer
 
 
 Hero Main text (This website is awesome)
-48px extra-bold #F9FAF8
+48px extra-bold #F9FAF8 ~
 
 
-Hero Secondary text, Header Link Text
-18px #E5E7EB
+Hero Secondary text, Header Link Text 
+18px #E5E7EB ~
 
 
 Header LOGO Text
