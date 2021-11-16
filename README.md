@@ -11,16 +11,16 @@ placeholder image credit to Timrael @ https://pixabay.com/users/timrael-12759911
 
 COLOR SCHEME FOR BASIC RECREATION
 
-dark bg color for hero and footer 
+dark bg color for hero and footer =========== DONE
 #1F2937 (same as text in the light sections)
 
 
 Hero Main text (This website is awesome)
-48px extra-bold #F9FAF8 ~
+48px extra-bold #F9FAF8 =========== DONE
 
 
 Hero Secondary text, Header Link Text 
-18px #E5E7EB ~
+18px #E5E7EB 
 
 
 Header LOGO Text

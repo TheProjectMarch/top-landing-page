@@ -11,25 +11,29 @@
   --medium-font-size: 24px;
   --normal-font-size: 18px;
   /* font-variants */
-  --italic-style: 
+  
   /* colors from anotha motha */
   --button-color: #3882F6;
   
 
 }
-
-
-.main-text {
-  font-family: roboto, sans-serif;
-  font-size: 48px;
-  font-weight: bold;
-}
 body {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: roboto, sans-serif;
 }
-
+button {
+  border: none;
+  background-color: none;
+  border-radius: 5px;
+  font: inherit;
+  color: inherit;
+}
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
 .placeholder {
   border: 1px solid var(--dark-background);
   height: 500px;
@@ -37,29 +41,54 @@ body {
 
 }
 
+.header {
+  height: 75px;
+  padding-top: 20px;
+}
+.logo {
+  font-size: var(--medium-font-size);
+  color: var(--hero-main-color);
+  font-weight: 900;
+}
+.main-text {
+  font-size: var(--extra-large-font-size);
+  font-weight: 900;
+}
+.secondary-text {
+  font-size: var(--normal-font-size);
+  color: var(--hero-secondary-color);
+}
+.sign-up-button {
+  background-color: var(--button-color);
+}
+
+
+
+.hero-container {
+  width: 70%;
+  margin: 0px auto;
+}
 .flex-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  width: 80%;
+  /* align-items: center; */
+  /* width: 80%; */
   margin: 0px auto;
 }
 
-.header {
-  height: 150px;
-}
+
 .ul-nav-container {
+
   list-style-type: none;
   text-decoration: none;
   gap: 20px;
   
 }
 
+
 .hero, .footer {
   background: var(--dark-background);
-  color: var(--hero-main-color);
-  
-  
+  color: var(--hero-main-color);  
 }
 
 .footer {
