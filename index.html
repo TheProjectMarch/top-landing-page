@@ -8,18 +8,19 @@
   <title>Landing Page Project</title>
 </head>
 <body>
-  <header id="main-header">
-    <div id="logo-container">Header Logo</div>
-      <nav>
-        <ul id="navigation">
-          <li class="navigation-link-item">header link 1</li>
-          <li class="navigation-link-item">header link 2</li>
-          <li class="navigation-link-item">header link 3</li>
-        </ul>
-      </nav>    
-  </header>
   
-  <section id="hero-section">
+  
+  <section id="hero-section" class="header">
+    <header id="main-header" class="header">
+      <div id="logo-container" class="ul-nav-container">Header Logo</div>
+        <nav>
+          <ul id="navigation">
+            <li class="navigation-link-item">header link 1</li>
+            <li class="navigation-link-item">header link 2</li>
+            <li class="navigation-link-item">header link 3</li>
+          </ul>
+        </nav>    
+    </header>
     <div id="description">
       <div id="description-heading">This website is awesome</div>
       <p id="description-text">Website descripton stuff here. Awesome subtext under main title and stuff.</p>
@@ -35,12 +36,18 @@
   4 image blocks with
   - captions
   -->
-
+<section id="info-section">
+  <div class="placeholder">Info words</div>
+</section>
 
   <!-- Quote Section
   blockquote of something someone said once maybe
   -->
-
+<section id="quote-section">
+  <div class="placeholder">
+    <blockquote class="quote"></blockquote>
+  </div>
+</section>
 
 <!-- call to action section
 centered section here
@@ -48,7 +55,10 @@ centered section here
 -- call to action text
 ---- another signup button
  -->
-
+<section id="call-to-action" class="div placeholder">
+  <div class="call-to-action"><button class="signup">Sign Up!</button></div>
+</section>
  <!-- footer with copyright  -->
+ <footer id="footer" class="footer">copyright TheProjectMarch&copy;</footer>
 </body>
 </html>

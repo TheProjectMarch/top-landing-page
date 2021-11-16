@@ -1,0 +1,22 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.placeholder {
+  border: 1px solid #1F2937;
+  height: 500px;
+  width: 100%;
+
+}
+
+
+.header, .footer {
+  background: #1F2937;
+  color: #E5E7EB;
+}
+
+.footer {
+  height: 145px;
+}
