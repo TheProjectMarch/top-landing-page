@@ -1,3 +1,8 @@
+:root {
+  --hero-main-color: #E5E7Eb;
+  --dark-background: #1F2937;
+}
+
 body {
   margin: 0px;
   padding: 0px;
@@ -5,7 +10,7 @@ body {
 }
 
 .placeholder {
-  border: 1px solid #1F2937;
+  border: 1px solid var(--dark-background);
   height: 500px;
   width: 100%;
 
@@ -13,8 +18,8 @@ body {
 
 
 .header, .footer {
-  background: #1F2937;
-  color: #E5E7EB;
+  background: var(--dark-background);
+  color: var(--hero-main-color);
 }
 
 .footer {
